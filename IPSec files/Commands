@@ -1,0 +1,16 @@
+gcc sender.c -o sender
+./sender
+
+
+
+
+gcc gatway_server.c -o gatway_server
+gcc gatway_server.c -o gatway_server -lcrypto
+./gatway_server
+
+
+
+gcc gatway_client.c -o gatway_client -lcrypto
+./gatway_client
+
+
