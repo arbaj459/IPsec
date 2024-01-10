@@ -1,5 +1,5 @@
 # IPsec
-]To successfully transfer file from sender to receiver
+To successfully transfer file from sender to receiver
 gcc sender.c -o sender
 ./sender file.txt
 
